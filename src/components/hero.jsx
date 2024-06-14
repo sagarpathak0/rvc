@@ -131,7 +131,7 @@ const Hero = () => {
             <div className="flex flex-col">
   <div className="flex flex-col lg:flex-row border bg-white rounded-xl my-10">
     <div className="flex flex-col lg:w-1/2 items-center my-20">
-      <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-3xl shadow-xl shadow-slate-400">
+      <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-full shadow-xl shadow-slate-400">
         <img src={ravi_mohan} alt="Description of image" className="w-[550px] h-[550px] object-cover"/>
       </div>
     </div>
@@ -154,7 +154,7 @@ const Hero = () => {
     </div>
     <div className="flex flex-col  md:w-1/2 pb-6 items-center ml-1 rounded-xl border bg-white">
       <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-3xl mt-20 shadow-xl">
-        <img src={yogendra_kumar} alt="Description of image" className="h-[670px]"/>
+        <img src={yogendra_kumar} alt="Description of image" className="h-[670px] object-cover"/>
       </div>
       <div className="text-3xl pb-3 pt-2">Mr. Yogendra Kumar</div>
       <div className="text-xl font-medium pb-10">Finance Officer</div>
