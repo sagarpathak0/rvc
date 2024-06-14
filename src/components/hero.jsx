@@ -30,9 +30,9 @@ const Hero = () => {
 
 
 
-      <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-48">
+      <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-48 ">
         <div className="flex flex-1">
-          <div className="h-auto text-black xl:ml-48 2xl:ml-72 text-3xl lg:text-5xl font-semibold w-full">
+          <div className="h-auto text-black xl:ml-48 2xl:ml-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
             Welcome to Real Value Consultants!
             <hr className="w-1/6 border-blue-800 my-6 border-t-4" />
             <div className="text-xl pb-6">Where we build your vision</div>
@@ -95,7 +95,7 @@ const Hero = () => {
 
         </div>
         <div className="flex flex-1" id="story">
-          <div className="h-auto text-black lg:mr-48 xl:mr-72 text-3xl lg:text-5xl font-semibold w-full">
+          <div className="h-auto text-black lg:mr-48 xl:mr-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
             Our Story
             <hr className="w-1/6 border-blue-800 my-6 border-t-4" />
             <div className="text-base font-light pb-6" style={{ lineHeight: '1.8' }}>
@@ -119,7 +119,7 @@ const Hero = () => {
 
       <div className=" flex flex-col lg:flex-row w-full pt-24 lg:pt-48 bg-blue-50">
         <div className="flex flex-1">
-          <div className="h-auto text-black xl:ml-48 2xl:ml-72 xl:mr-48 2xl:mr-72 text-3xl lg:text-5xl font-semibold w-full">
+          <div className="h-auto text-black xl:ml-48 2xl:ml-72 xl:mr-48 2xl:mr-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
             Who Are We?
             <hr className="w-1/12 border-blue-800 my-6 border-t-4" />
             
@@ -161,29 +161,33 @@ const Hero = () => {
     </div>
   </div>
   
-  <div className="flex flex-col lg:flex-row pb-24 lg:pb-48">
-  <div className="flex flex-col lg:w-1/3 pb-6 items-center ml-1 rounded-xl border bg-white">
-    <div className="flex justify-center w-4/5 h-[400px] overflow-hidden rounded-3xl mt-20 shadow-xl">
-      <img src={amir_malik} alt="Description of image" className="h-[600px]"/>
+  <div className="flex flex-col md:flex-row mb-10">
+    <div className="flex flex-col  md:w-1/2 pb-6 items-center mr-1 rounded-xl border bg-white">
+      <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-3xl mt-20 shadow-xl">
+        <img src={amir_malik} alt="Description of image" className="h-[740px] object-cover"/>
+      </div>
+      <div className="text-3xl pb-3 pt-2">Er. Amir Malik</div>
+      <div className="text-xl font-medium pb-10">Engineer</div>
     </div>
-    <div className="text-3xl pb-3 pt-2">Er. Amir Malik</div>
-    <div className="text-xl font-medium pb-10">Engineer</div>
-  </div>
-  <div className="flex flex-col lg:w-1/3 pb-6 items-center ml-1 rounded-xl border bg-white">
-    <div className="flex justify-center w-4/5 h-[400px] overflow-hidden rounded-3xl mt-20 shadow-xl">
-      <img src={bablu_kumar} alt="Description of image" className="h-[600px]"/>
+    <div className="flex flex-col  md:w-1/2 pb-6 items-center ml-1 rounded-xl border bg-white">
+      <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-3xl mt-20 shadow-xl">
+        <img src={bablu_kumar} alt="Description of image" className="h-[670px] object-cover"/>
+      </div>
+      <div className="text-3xl pb-3 pt-2">Er. Bablu Kumar</div>
+      <div className="text-xl font-medium">Assistant Valuer</div>
+      <div className="text-xl font-medium pb-10">Plant and Machinery</div>
     </div>
-    <div className="text-3xl pb-3 pt-2">Er. Bablu Kumar</div>
-    <div className="text-xl font-medium pb-10">Assistant Valuer-Plant and Machinery</div>
-  </div>
-  <div className="flex flex-col lg:w-1/3 pb-6 items-center ml-1 rounded-xl border bg-white">
-    <div className="flex justify-center w-4/5 h-[400px] overflow-hidden rounded-3xl mt-20 shadow-xl">
-      <img src={pankaj_kumar} alt="Description of image" className="h-[600px]"/>
-    </div>
-    <div className="text-3xl pb-3 pt-2">Mr. Pankaj Kumar</div>
-    <div className="text-xl font-medium pb-10">Admin Officer</div>
   </div>
 
+  <div className="flex flex-col md:flex-row mb-10">
+    <div className="flex flex-col  md:w-1/2 pb-6 items-center mr-1 rounded-xl border bg-white">
+      <div className="flex justify-center  w-2/3 h-[500px] overflow-hidden rounded-3xl mt-20 shadow-xl">
+        <img src={pankaj_kumar} alt="Description of image" className="h-[740px] object-cover"/>
+      </div>
+      <div className="text-3xl pb-3 pt-2">Mr. Pankaj Kumar</div>
+      <div className="text-xl font-medium pb-10">Admin Officer</div>
+    </div>
+    
   </div>
 </div>
 
@@ -207,7 +211,7 @@ const Hero = () => {
 
       <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-48">
         <div className="flex flex-1">
-          <div className="h-auto text-black xl:ml-48 2xl:ml-72 xl:mr-48 2xl:mr-72 text-3xl lg:text-5xl font-semibold w-full">
+          <div className="h-auto text-black xl:ml-48 2xl:ml-72 xl:mr-48 2xl:mr-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
             Why Real Value?
             <hr className="w-1/12 border-blue-800 my-6 border-t-4" />
             
@@ -265,7 +269,7 @@ const Hero = () => {
 
 <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-48">
   <div className="flex flex-1">
-    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full">
+    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
       Our Services
       <hr className="w-1/12 border-blue-800 my-6 border-t-4" />
 
@@ -309,7 +313,7 @@ const Hero = () => {
 
 <div className="bg-sky-100 flex flex-col lg:flex-row w-full pt-24 lg:pt-48">
   <div className="flex flex-1">
-    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full">
+    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
       Our Specialization
       <hr className="w-1/12 border-blue-800 my-6 border-t-4 pb-9" />
 
@@ -369,8 +373,8 @@ const Hero = () => {
       <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-48">
   <div className="flex flex-1">
     <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full">
-      Banks
-      <hr className="w-1/12 border-blue-800 my-6 border-t-4 pb-9" />
+      <div className='ml-6 mr-6'>Banks
+      <hr className="w-1/12 border-blue-800 my-6 border-t-4 pb-9" /></div>
 
       <div className="flex flex-col lg:flex-row justify-center lg:space-x-8 pb-10">
 
@@ -512,7 +516,7 @@ const Hero = () => {
 
 <div className="bg-white flex flex-col lg:flex-row w-full pt-24 lg:pt-24">
   <div className="flex flex-1">
-    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full">
+    <div className="h-auto text-black xl:mx-48 2xl:mx-72 text-3xl lg:text-5xl font-semibold w-full ml-6 mr-6">
       <div className="">Our Recent Projects</div>
       <hr className="w-1/12 border-blue-800 my-6 border-t-4 pb-9" />
 
