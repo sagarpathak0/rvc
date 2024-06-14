@@ -634,7 +634,7 @@ const Hero = () => {
       <img width={40} src={facebook} alt="facebook" />
       <img width={40} src={instagram} alt="instagram" />
       <img width={40} src={twitter} alt="twitter" />
-      <img width={40} src={discordBlack} alt="discord" />
+      <a href="https://www.linkedin.com/company/real-value-consultants/"><img width={40} src={discordBlack} alt="discord" /></a>
     </div>
   </div>
 
